@@ -32,6 +32,7 @@ jobs:
         with:
           repository: base/benchmark
           path: benchmark-repo
+          ref: 5bcbf4e911232992f28cd7f0c731f25f8789fcb3
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
