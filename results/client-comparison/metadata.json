@@ -5,7 +5,7 @@
       "sourceFile": "blog/compare-clients.yml",
       "outputDir": "test-1761682217442690-0",
       "testName": "Client Comparison Example",
-      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 50 blocks.\n",
+      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 20 blocks.\n",
       "testConfig": {
         "BenchmarkRun": "",
         "BlockTimeMilliseconds": 1000,
@@ -35,7 +35,7 @@
       "sourceFile": "blog/compare-clients.yml",
       "outputDir": "test-1761682217442690-1",
       "testName": "Client Comparison Example",
-      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 50 blocks.\n",
+      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 20 blocks.\n",
       "testConfig": {
         "BenchmarkRun": "",
         "BlockTimeMilliseconds": 1000,
@@ -65,7 +65,7 @@
       "sourceFile": "blog/compare-clients.yml",
       "outputDir": "test-1761682217442690-2",
       "testName": "Client Comparison Example",
-      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 50 blocks.\n",
+      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 20 blocks.\n",
       "testConfig": {
         "BenchmarkRun": "",
         "BlockTimeMilliseconds": 1000,
@@ -95,7 +95,7 @@
       "sourceFile": "blog/compare-clients.yml",
       "outputDir": "test-1761682217442690-3",
       "testName": "Client Comparison Example",
-      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 50 blocks.\n",
+      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 20 blocks.\n",
       "testConfig": {
         "BenchmarkRun": "",
         "BlockTimeMilliseconds": 1000,
@@ -125,7 +125,7 @@
       "sourceFile": "blog/compare-clients.yml",
       "outputDir": "test-1761682217442690-4",
       "testName": "Client Comparison Example",
-      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 50 blocks.\n",
+      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 20 blocks.\n",
       "testConfig": {
         "BenchmarkRun": "",
         "BlockTimeMilliseconds": 1000,
@@ -155,7 +155,7 @@
       "sourceFile": "blog/compare-clients.yml",
       "outputDir": "test-1761682217442690-5",
       "testName": "Client Comparison Example",
-      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 50 blocks.\n",
+      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 20 blocks.\n",
       "testConfig": {
         "BenchmarkRun": "",
         "BlockTimeMilliseconds": 1000,
@@ -185,7 +185,7 @@
       "sourceFile": "blog/compare-clients.yml",
       "outputDir": "test-1761682217442690-6",
       "testName": "Client Comparison Example",
-      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 50 blocks.\n",
+      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 20 blocks.\n",
       "testConfig": {
         "BenchmarkRun": "",
         "BlockTimeMilliseconds": 1000,
@@ -215,7 +215,7 @@
       "sourceFile": "blog/compare-clients.yml",
       "outputDir": "test-1761682217442690-7",
       "testName": "Client Comparison Example",
-      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 50 blocks.\n",
+      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 20 blocks.\n",
       "testConfig": {
         "BenchmarkRun": "",
         "BlockTimeMilliseconds": 1000,
@@ -245,7 +245,7 @@
       "sourceFile": "blog/compare-clients.yml",
       "outputDir": "test-1761682217442690-8",
       "testName": "Client Comparison Example",
-      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 50 blocks.\n",
+      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 20 blocks.\n",
       "testConfig": {
         "BenchmarkRun": "",
         "BlockTimeMilliseconds": 1000,
@@ -275,7 +275,7 @@
       "sourceFile": "blog/compare-clients.yml",
       "outputDir": "test-1761682217442690-9",
       "testName": "Client Comparison Example",
-      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 50 blocks.\n",
+      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 20 blocks.\n",
       "testConfig": {
         "BenchmarkRun": "",
         "BlockTimeMilliseconds": 1000,
@@ -305,7 +305,7 @@
       "sourceFile": "blog/compare-clients.yml",
       "outputDir": "test-1761682217442690-10",
       "testName": "Client Comparison Example",
-      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 50 blocks.\n",
+      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 20 blocks.\n",
       "testConfig": {
         "BenchmarkRun": "",
         "BlockTimeMilliseconds": 1000,
@@ -335,7 +335,7 @@
       "sourceFile": "blog/compare-clients.yml",
       "outputDir": "test-1761682217442690-11",
       "testName": "Client Comparison Example",
-      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 50 blocks.\n",
+      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 20 blocks.\n",
       "testConfig": {
         "BenchmarkRun": "",
         "BlockTimeMilliseconds": 1000,
@@ -365,7 +365,7 @@
       "sourceFile": "blog/compare-clients.yml",
       "outputDir": "test-1761682217442690-12",
       "testName": "Client Comparison Example",
-      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 50 blocks.\n",
+      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 20 blocks.\n",
       "testConfig": {
         "BenchmarkRun": "",
         "BlockTimeMilliseconds": 1000,
@@ -395,7 +395,7 @@
       "sourceFile": "blog/compare-clients.yml",
       "outputDir": "test-1761682217442690-13",
       "testName": "Client Comparison Example",
-      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 50 blocks.\n",
+      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 20 blocks.\n",
       "testConfig": {
         "BenchmarkRun": "",
         "BlockTimeMilliseconds": 1000,
@@ -425,7 +425,7 @@
       "sourceFile": "blog/compare-clients.yml",
       "outputDir": "test-1761682217442690-14",
       "testName": "Client Comparison Example",
-      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 50 blocks.\n",
+      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 20 blocks.\n",
       "testConfig": {
         "BenchmarkRun": "",
         "BlockTimeMilliseconds": 1000,
@@ -455,7 +455,7 @@
       "sourceFile": "blog/compare-clients.yml",
       "outputDir": "test-1761682217442690-15",
       "testName": "Client Comparison Example",
-      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 50 blocks.\n",
+      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 20 blocks.\n",
       "testConfig": {
         "BenchmarkRun": "",
         "BlockTimeMilliseconds": 1000,
@@ -485,7 +485,7 @@
       "sourceFile": "blog/compare-clients.yml",
       "outputDir": "test-1761682217442690-16",
       "testName": "Client Comparison Example",
-      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 50 blocks.\n",
+      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 20 blocks.\n",
       "testConfig": {
         "BenchmarkRun": "",
         "BlockTimeMilliseconds": 1000,
@@ -515,7 +515,7 @@
       "sourceFile": "blog/compare-clients.yml",
       "outputDir": "test-1761682217442690-17",
       "testName": "Client Comparison Example",
-      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 50 blocks.\n",
+      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 20 blocks.\n",
       "testConfig": {
         "BenchmarkRun": "",
         "BlockTimeMilliseconds": 1000,
@@ -545,7 +545,7 @@
       "sourceFile": "blog/compare-clients.yml",
       "outputDir": "test-1761682217442690-18",
       "testName": "Client Comparison Example",
-      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 50 blocks.\n",
+      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 20 blocks.\n",
       "testConfig": {
         "BenchmarkRun": "",
         "BlockTimeMilliseconds": 1000,
@@ -575,7 +575,7 @@
       "sourceFile": "blog/compare-clients.yml",
       "outputDir": "test-1761682217442690-19",
       "testName": "Client Comparison Example",
-      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 50 blocks.\n",
+      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 20 blocks.\n",
       "testConfig": {
         "BenchmarkRun": "",
         "BlockTimeMilliseconds": 1000,
@@ -605,7 +605,7 @@
       "sourceFile": "blog/compare-clients.yml",
       "outputDir": "test-1761682217442690-20",
       "testName": "Client Comparison Example",
-      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 50 blocks.\n",
+      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 20 blocks.\n",
       "testConfig": {
         "BenchmarkRun": "",
         "BlockTimeMilliseconds": 1000,
@@ -635,7 +635,7 @@
       "sourceFile": "blog/compare-clients.yml",
       "outputDir": "test-1761682217442690-21",
       "testName": "Client Comparison Example",
-      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 50 blocks.\n",
+      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 20 blocks.\n",
       "testConfig": {
         "BenchmarkRun": "",
         "BlockTimeMilliseconds": 1000,
@@ -665,7 +665,7 @@
       "sourceFile": "blog/compare-clients.yml",
       "outputDir": "test-1761682217442690-22",
       "testName": "Client Comparison Example",
-      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 50 blocks.\n",
+      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 20 blocks.\n",
       "testConfig": {
         "BenchmarkRun": "",
         "BlockTimeMilliseconds": 1000,
@@ -695,7 +695,7 @@
       "sourceFile": "blog/compare-clients.yml",
       "outputDir": "test-1761682217442690-23",
       "testName": "Client Comparison Example",
-      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 50 blocks.\n",
+      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 20 blocks.\n",
       "testConfig": {
         "BenchmarkRun": "",
         "BlockTimeMilliseconds": 1000,
@@ -725,7 +725,7 @@
       "sourceFile": "blog/compare-clients.yml",
       "outputDir": "test-1761682217442690-24",
       "testName": "Client Comparison Example",
-      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 50 blocks.\n",
+      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 20 blocks.\n",
       "testConfig": {
         "BenchmarkRun": "",
         "BlockTimeMilliseconds": 1000,
@@ -755,7 +755,7 @@
       "sourceFile": "blog/compare-clients.yml",
       "outputDir": "test-1761682217442690-25",
       "testName": "Client Comparison Example",
-      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 50 blocks.\n",
+      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 20 blocks.\n",
       "testConfig": {
         "BenchmarkRun": "",
         "BlockTimeMilliseconds": 1000,
@@ -785,7 +785,7 @@
       "sourceFile": "blog/compare-clients.yml",
       "outputDir": "test-1761682217442690-26",
       "testName": "Client Comparison Example",
-      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 50 blocks.\n",
+      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 20 blocks.\n",
       "testConfig": {
         "BenchmarkRun": "",
         "BlockTimeMilliseconds": 1000,
@@ -815,7 +815,7 @@
       "sourceFile": "blog/compare-clients.yml",
       "outputDir": "test-1761682217442690-27",
       "testName": "Client Comparison Example",
-      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 50 blocks.\n",
+      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 20 blocks.\n",
       "testConfig": {
         "BenchmarkRun": "",
         "BlockTimeMilliseconds": 1000,
@@ -845,7 +845,7 @@
       "sourceFile": "blog/compare-clients.yml",
       "outputDir": "test-1761682217442690-28",
       "testName": "Client Comparison Example",
-      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 50 blocks.\n",
+      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 20 blocks.\n",
       "testConfig": {
         "BenchmarkRun": "",
         "BlockTimeMilliseconds": 1000,
@@ -875,7 +875,7 @@
       "sourceFile": "blog/compare-clients.yml",
       "outputDir": "test-1761682217442690-29",
       "testName": "Client Comparison Example",
-      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 50 blocks.\n",
+      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 20 blocks.\n",
       "testConfig": {
         "BenchmarkRun": "",
         "BlockTimeMilliseconds": 1000,
@@ -905,7 +905,7 @@
       "sourceFile": "blog/compare-clients.yml",
       "outputDir": "test-1761682217442690-30",
       "testName": "Client Comparison Example",
-      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 50 blocks.\n",
+      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 20 blocks.\n",
       "testConfig": {
         "BenchmarkRun": "",
         "BlockTimeMilliseconds": 1000,
@@ -935,7 +935,7 @@
       "sourceFile": "blog/compare-clients.yml",
       "outputDir": "test-1761682217442690-31",
       "testName": "Client Comparison Example",
-      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 50 blocks.\n",
+      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 20 blocks.\n",
       "testConfig": {
         "BenchmarkRun": "",
         "BlockTimeMilliseconds": 1000,
