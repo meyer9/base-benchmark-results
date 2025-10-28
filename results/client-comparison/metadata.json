@@ -1,0 +1,965 @@
+{
+  "runs": [
+    {
+      "id": "test-1761682217442690",
+      "sourceFile": "blog/compare-clients.yml",
+      "outputDir": "test-1761682217442690-0",
+      "testName": "Client Comparison Example",
+      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 50 blocks.\n",
+      "testConfig": {
+        "BenchmarkRun": "",
+        "BlockTimeMilliseconds": 1000,
+        "GasLimit": 75000000,
+        "NodeType": "reth",
+        "TransactionPayload": "transfer-only"
+      },
+      "result": {
+        "success": true,
+        "complete": true,
+        "sequencerMetrics": {
+          "gasPerSecond": 73129200.72213954,
+          "forkChoiceUpdated": 0.0020719568,
+          "getPayload": 0.022356607150000003,
+          "sendTxs": 0.33213636575
+        },
+        "validatorMetrics": {
+          "gasPerSecond": 234573814.31435174,
+          "newPayload": 0.3196424717999999
+        }
+      },
+      "thresholds": null,
+      "createdAt": "2025-10-28T20:10:17.442776131Z"
+    },
+    {
+      "id": "test-1761682217442690",
+      "sourceFile": "blog/compare-clients.yml",
+      "outputDir": "test-1761682217442690-1",
+      "testName": "Client Comparison Example",
+      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 50 blocks.\n",
+      "testConfig": {
+        "BenchmarkRun": "",
+        "BlockTimeMilliseconds": 1000,
+        "GasLimit": 100000000,
+        "NodeType": "reth",
+        "TransactionPayload": "transfer-only"
+      },
+      "result": {
+        "success": true,
+        "complete": true,
+        "sequencerMetrics": {
+          "gasPerSecond": 96635103.86786677,
+          "forkChoiceUpdated": 0.0024759384,
+          "getPayload": 0.03166159035,
+          "sendTxs": 0.4372394042499999
+        },
+        "validatorMetrics": {
+          "gasPerSecond": 236964385.1343042,
+          "newPayload": 0.42186534254999997
+        }
+      },
+      "thresholds": null,
+      "createdAt": "2025-10-28T20:10:17.442776131Z"
+    },
+    {
+      "id": "test-1761682217442690",
+      "sourceFile": "blog/compare-clients.yml",
+      "outputDir": "test-1761682217442690-2",
+      "testName": "Client Comparison Example",
+      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 50 blocks.\n",
+      "testConfig": {
+        "BenchmarkRun": "",
+        "BlockTimeMilliseconds": 1000,
+        "GasLimit": 75000000,
+        "NodeType": "geth",
+        "TransactionPayload": "transfer-only"
+      },
+      "result": {
+        "success": true,
+        "complete": true,
+        "sequencerMetrics": {
+          "gasPerSecond": 69273688.87903367,
+          "forkChoiceUpdated": 0.024761969749999998,
+          "getPayload": 0.05640522865000001,
+          "sendTxs": 0.4905668529999999
+        },
+        "validatorMetrics": {
+          "gasPerSecond": 473611527.19716054,
+          "newPayload": 0.15850812445
+        }
+      },
+      "thresholds": null,
+      "createdAt": "2025-10-28T20:10:17.442776131Z"
+    },
+    {
+      "id": "test-1761682217442690",
+      "sourceFile": "blog/compare-clients.yml",
+      "outputDir": "test-1761682217442690-3",
+      "testName": "Client Comparison Example",
+      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 50 blocks.\n",
+      "testConfig": {
+        "BenchmarkRun": "",
+        "BlockTimeMilliseconds": 1000,
+        "GasLimit": 100000000,
+        "NodeType": "geth",
+        "TransactionPayload": "transfer-only"
+      },
+      "result": {
+        "success": true,
+        "complete": true,
+        "sequencerMetrics": {
+          "gasPerSecond": 89906303.47874263,
+          "forkChoiceUpdated": 0.033082910650000005,
+          "getPayload": 0.07806713890000001,
+          "sendTxs": 0.6511311311
+        },
+        "validatorMetrics": {
+          "gasPerSecond": 499378098.87461317,
+          "newPayload": 0.2003476417
+        }
+      },
+      "thresholds": null,
+      "createdAt": "2025-10-28T20:10:17.442776131Z"
+    },
+    {
+      "id": "test-1761682217442690",
+      "sourceFile": "blog/compare-clients.yml",
+      "outputDir": "test-1761682217442690-4",
+      "testName": "Client Comparison Example",
+      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 50 blocks.\n",
+      "testConfig": {
+        "BenchmarkRun": "",
+        "BlockTimeMilliseconds": 1000,
+        "GasLimit": 75000000,
+        "NodeType": "reth",
+        "TransactionPayload": "base-mainnet-simulation"
+      },
+      "result": {
+        "success": true,
+        "complete": true,
+        "sequencerMetrics": {
+          "gasPerSecond": 73380703.1870425,
+          "forkChoiceUpdated": 0.0012507033499999998,
+          "getPayload": 0.0056068342,
+          "sendTxs": 0.01638843235
+        },
+        "validatorMetrics": {
+          "gasPerSecond": 904398199.7595463,
+          "newPayload": 0.0857649167
+        }
+      },
+      "thresholds": null,
+      "createdAt": "2025-10-28T20:10:17.442776131Z"
+    },
+    {
+      "id": "test-1761682217442690",
+      "sourceFile": "blog/compare-clients.yml",
+      "outputDir": "test-1761682217442690-5",
+      "testName": "Client Comparison Example",
+      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 50 blocks.\n",
+      "testConfig": {
+        "BenchmarkRun": "",
+        "BlockTimeMilliseconds": 1000,
+        "GasLimit": 100000000,
+        "NodeType": "reth",
+        "TransactionPayload": "base-mainnet-simulation"
+      },
+      "result": {
+        "success": true,
+        "complete": true,
+        "sequencerMetrics": {
+          "gasPerSecond": 97696736.85094029,
+          "forkChoiceUpdated": 0.00216809095,
+          "getPayload": 0.007807700900000001,
+          "sendTxs": 0.021859254249999998
+        },
+        "validatorMetrics": {
+          "gasPerSecond": 871027518.7723987,
+          "newPayload": 0.12199272945000002
+        }
+      },
+      "thresholds": null,
+      "createdAt": "2025-10-28T20:10:17.442776131Z"
+    },
+    {
+      "id": "test-1761682217442690",
+      "sourceFile": "blog/compare-clients.yml",
+      "outputDir": "test-1761682217442690-6",
+      "testName": "Client Comparison Example",
+      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 50 blocks.\n",
+      "testConfig": {
+        "BenchmarkRun": "",
+        "BlockTimeMilliseconds": 1000,
+        "GasLimit": 75000000,
+        "NodeType": "geth",
+        "TransactionPayload": "base-mainnet-simulation"
+      },
+      "result": {
+        "success": true,
+        "complete": true,
+        "sequencerMetrics": {
+          "gasPerSecond": 72789671.07560816,
+          "forkChoiceUpdated": 0.0032312011500000002,
+          "getPayload": 0.011380962900000001,
+          "sendTxs": 0.025732504149999995
+        },
+        "validatorMetrics": {
+          "gasPerSecond": 321421440.4196412,
+          "newPayload": 0.23013211210000004
+        }
+      },
+      "thresholds": null,
+      "createdAt": "2025-10-28T20:10:17.442776131Z"
+    },
+    {
+      "id": "test-1761682217442690",
+      "sourceFile": "blog/compare-clients.yml",
+      "outputDir": "test-1761682217442690-7",
+      "testName": "Client Comparison Example",
+      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 50 blocks.\n",
+      "testConfig": {
+        "BenchmarkRun": "",
+        "BlockTimeMilliseconds": 1000,
+        "GasLimit": 100000000,
+        "NodeType": "geth",
+        "TransactionPayload": "base-mainnet-simulation"
+      },
+      "result": {
+        "success": true,
+        "complete": true,
+        "sequencerMetrics": {
+          "gasPerSecond": 96914522.20325378,
+          "forkChoiceUpdated": 0.0033108686500000007,
+          "getPayload": 0.01436245425,
+          "sendTxs": 0.0344260608
+        },
+        "validatorMetrics": {
+          "gasPerSecond": 298723032.64931333,
+          "newPayload": 0.33142246205000003
+        }
+      },
+      "thresholds": null,
+      "createdAt": "2025-10-28T20:10:17.442776131Z"
+    },
+    {
+      "id": "test-1761682217442690",
+      "sourceFile": "blog/compare-clients.yml",
+      "outputDir": "test-1761682217442690-8",
+      "testName": "Client Comparison Example",
+      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 50 blocks.\n",
+      "testConfig": {
+        "BenchmarkRun": "",
+        "BlockTimeMilliseconds": 1000,
+        "GasLimit": 75000000,
+        "NodeType": "reth",
+        "TransactionPayload": "storage-create-full-block"
+      },
+      "result": {
+        "success": true,
+        "complete": true,
+        "sequencerMetrics": {
+          "gasPerSecond": 73193684.47728652,
+          "forkChoiceUpdated": 0.0008775755999999999,
+          "getPayload": 0.0012006422,
+          "sendTxs": 0.0036426896500000006
+        },
+        "validatorMetrics": {
+          "gasPerSecond": 2312813698.143901,
+          "newPayload": 0.0350932905
+        }
+      },
+      "thresholds": null,
+      "createdAt": "2025-10-28T20:10:17.442776131Z"
+    },
+    {
+      "id": "test-1761682217442690",
+      "sourceFile": "blog/compare-clients.yml",
+      "outputDir": "test-1761682217442690-9",
+      "testName": "Client Comparison Example",
+      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 50 blocks.\n",
+      "testConfig": {
+        "BenchmarkRun": "",
+        "BlockTimeMilliseconds": 1000,
+        "GasLimit": 100000000,
+        "NodeType": "reth",
+        "TransactionPayload": "storage-create-full-block"
+      },
+      "result": {
+        "success": true,
+        "complete": true,
+        "sequencerMetrics": {
+          "gasPerSecond": 96006746.46016967,
+          "forkChoiceUpdated": 0.0011480336000000001,
+          "getPayload": 0.0014247880000000002,
+          "sendTxs": 0.00473444875
+        },
+        "validatorMetrics": {
+          "gasPerSecond": 2661231039.3243628,
+          "newPayload": 0.03647414585000001
+        }
+      },
+      "thresholds": null,
+      "createdAt": "2025-10-28T20:10:17.442776131Z"
+    },
+    {
+      "id": "test-1761682217442690",
+      "sourceFile": "blog/compare-clients.yml",
+      "outputDir": "test-1761682217442690-10",
+      "testName": "Client Comparison Example",
+      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 50 blocks.\n",
+      "testConfig": {
+        "BenchmarkRun": "",
+        "BlockTimeMilliseconds": 1000,
+        "GasLimit": 75000000,
+        "NodeType": "geth",
+        "TransactionPayload": "storage-create-full-block"
+      },
+      "result": {
+        "success": true,
+        "complete": true,
+        "sequencerMetrics": {
+          "gasPerSecond": 73014217.17422402,
+          "forkChoiceUpdated": 0.0016686866000000002,
+          "getPayload": 0.0024132743500000003,
+          "sendTxs": 0.005709179150000001
+        },
+        "validatorMetrics": {
+          "gasPerSecond": 787301298.7332972,
+          "newPayload": 0.09369978250000001
+        }
+      },
+      "thresholds": null,
+      "createdAt": "2025-10-28T20:10:17.442776131Z"
+    },
+    {
+      "id": "test-1761682217442690",
+      "sourceFile": "blog/compare-clients.yml",
+      "outputDir": "test-1761682217442690-11",
+      "testName": "Client Comparison Example",
+      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 50 blocks.\n",
+      "testConfig": {
+        "BenchmarkRun": "",
+        "BlockTimeMilliseconds": 1000,
+        "GasLimit": 100000000,
+        "NodeType": "geth",
+        "TransactionPayload": "storage-create-full-block"
+      },
+      "result": {
+        "success": true,
+        "complete": true,
+        "sequencerMetrics": {
+          "gasPerSecond": 95807607.59121516,
+          "forkChoiceUpdated": 0.0014863084,
+          "getPayload": 0.0028685422,
+          "sendTxs": 0.007450536000000001
+        },
+        "validatorMetrics": {
+          "gasPerSecond": 790480986.4133193,
+          "newPayload": 0.12259125515000002
+        }
+      },
+      "thresholds": null,
+      "createdAt": "2025-10-28T20:10:17.442776131Z"
+    },
+    {
+      "id": "test-1761682217442690",
+      "sourceFile": "blog/compare-clients.yml",
+      "outputDir": "test-1761682217442690-12",
+      "testName": "Client Comparison Example",
+      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 50 blocks.\n",
+      "testConfig": {
+        "BenchmarkRun": "",
+        "BlockTimeMilliseconds": 1000,
+        "GasLimit": 75000000,
+        "NodeType": "reth",
+        "TransactionPayload": "storage-update-full-block"
+      },
+      "result": {
+        "success": true,
+        "complete": true,
+        "sequencerMetrics": {
+          "gasPerSecond": 73193913.48223928,
+          "forkChoiceUpdated": 0.0007838798000000001,
+          "getPayload": 0.001282357,
+          "sendTxs": 0.0038571791999999993
+        },
+        "validatorMetrics": {
+          "gasPerSecond": 2134204165.7224984,
+          "newPayload": 0.03533797470000001
+        }
+      },
+      "thresholds": null,
+      "createdAt": "2025-10-28T20:10:17.442776131Z"
+    },
+    {
+      "id": "test-1761682217442690",
+      "sourceFile": "blog/compare-clients.yml",
+      "outputDir": "test-1761682217442690-13",
+      "testName": "Client Comparison Example",
+      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 50 blocks.\n",
+      "testConfig": {
+        "BenchmarkRun": "",
+        "BlockTimeMilliseconds": 1000,
+        "GasLimit": 100000000,
+        "NodeType": "reth",
+        "TransactionPayload": "storage-update-full-block"
+      },
+      "result": {
+        "success": true,
+        "complete": true,
+        "sequencerMetrics": {
+          "gasPerSecond": 96007119.73808593,
+          "forkChoiceUpdated": 0.0012031493,
+          "getPayload": 0.0014689845,
+          "sendTxs": 0.00488214375
+        },
+        "validatorMetrics": {
+          "gasPerSecond": 2306971429.4943137,
+          "newPayload": 0.04230831959999999
+        }
+      },
+      "thresholds": null,
+      "createdAt": "2025-10-28T20:10:17.442776131Z"
+    },
+    {
+      "id": "test-1761682217442690",
+      "sourceFile": "blog/compare-clients.yml",
+      "outputDir": "test-1761682217442690-14",
+      "testName": "Client Comparison Example",
+      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 50 blocks.\n",
+      "testConfig": {
+        "BenchmarkRun": "",
+        "BlockTimeMilliseconds": 1000,
+        "GasLimit": 75000000,
+        "NodeType": "geth",
+        "TransactionPayload": "storage-update-full-block"
+      },
+      "result": {
+        "success": true,
+        "complete": true,
+        "sequencerMetrics": {
+          "gasPerSecond": 73024285.54986101,
+          "forkChoiceUpdated": 0.0011846442500000002,
+          "getPayload": 0.00277814525,
+          "sendTxs": 0.0062177503500000005
+        },
+        "validatorMetrics": {
+          "gasPerSecond": 719525376.4925082,
+          "newPayload": 0.10204657745000001
+        }
+      },
+      "thresholds": null,
+      "createdAt": "2025-10-28T20:10:17.442776131Z"
+    },
+    {
+      "id": "test-1761682217442690",
+      "sourceFile": "blog/compare-clients.yml",
+      "outputDir": "test-1761682217442690-15",
+      "testName": "Client Comparison Example",
+      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 50 blocks.\n",
+      "testConfig": {
+        "BenchmarkRun": "",
+        "BlockTimeMilliseconds": 1000,
+        "GasLimit": 100000000,
+        "NodeType": "geth",
+        "TransactionPayload": "storage-update-full-block"
+      },
+      "result": {
+        "success": true,
+        "complete": true,
+        "sequencerMetrics": {
+          "gasPerSecond": 95823891.2947239,
+          "forkChoiceUpdated": 0.0012519246,
+          "getPayload": 0.00277936795,
+          "sendTxs": 0.007079763300000002
+        },
+        "validatorMetrics": {
+          "gasPerSecond": 696755410.8831028,
+          "newPayload": 0.13834141199999997
+        }
+      },
+      "thresholds": null,
+      "createdAt": "2025-10-28T20:10:17.442776131Z"
+    },
+    {
+      "id": "test-1761682217442690",
+      "sourceFile": "blog/compare-clients.yml",
+      "outputDir": "test-1761682217442690-16",
+      "testName": "Client Comparison Example",
+      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 50 blocks.\n",
+      "testConfig": {
+        "BenchmarkRun": "",
+        "BlockTimeMilliseconds": 1000,
+        "GasLimit": 75000000,
+        "NodeType": "reth",
+        "TransactionPayload": "ecrecover-full-block"
+      },
+      "result": {
+        "success": true,
+        "complete": true,
+        "sequencerMetrics": {
+          "gasPerSecond": 72603970.72672452,
+          "forkChoiceUpdated": 0.0005884734999999999,
+          "getPayload": 0.00495020535,
+          "sendTxs": 0.01866811175
+        },
+        "validatorMetrics": {
+          "gasPerSecond": 2144128794.4826221,
+          "newPayload": 0.03429128039999999
+        }
+      },
+      "thresholds": null,
+      "createdAt": "2025-10-28T20:10:17.442776131Z"
+    },
+    {
+      "id": "test-1761682217442690",
+      "sourceFile": "blog/compare-clients.yml",
+      "outputDir": "test-1761682217442690-17",
+      "testName": "Client Comparison Example",
+      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 50 blocks.\n",
+      "testConfig": {
+        "BenchmarkRun": "",
+        "BlockTimeMilliseconds": 1000,
+        "GasLimit": 100000000,
+        "NodeType": "reth",
+        "TransactionPayload": "ecrecover-full-block"
+      },
+      "result": {
+        "success": true,
+        "complete": true,
+        "sequencerMetrics": {
+          "gasPerSecond": 97060075.71402657,
+          "forkChoiceUpdated": 0.00057992795,
+          "getPayload": 0.0066101547,
+          "sendTxs": 0.026009730550000006
+        },
+        "validatorMetrics": {
+          "gasPerSecond": 2164233941.953721,
+          "newPayload": 0.04547809640000001
+        }
+      },
+      "thresholds": null,
+      "createdAt": "2025-10-28T20:10:17.442776131Z"
+    },
+    {
+      "id": "test-1761682217442690",
+      "sourceFile": "blog/compare-clients.yml",
+      "outputDir": "test-1761682217442690-18",
+      "testName": "Client Comparison Example",
+      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 50 blocks.\n",
+      "testConfig": {
+        "BenchmarkRun": "",
+        "BlockTimeMilliseconds": 1000,
+        "GasLimit": 75000000,
+        "NodeType": "geth",
+        "TransactionPayload": "ecrecover-full-block"
+      },
+      "result": {
+        "success": true,
+        "complete": true,
+        "sequencerMetrics": {
+          "gasPerSecond": 72054900.56143335,
+          "forkChoiceUpdated": 0.0031236806000000004,
+          "getPayload": 0.009639173249999999,
+          "sendTxs": 0.02960560035
+        },
+        "validatorMetrics": {
+          "gasPerSecond": 89551731.29885189,
+          "newPayload": 0.8154469472999999
+        }
+      },
+      "thresholds": null,
+      "createdAt": "2025-10-28T20:10:17.442776131Z"
+    },
+    {
+      "id": "test-1761682217442690",
+      "sourceFile": "blog/compare-clients.yml",
+      "outputDir": "test-1761682217442690-19",
+      "testName": "Client Comparison Example",
+      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 50 blocks.\n",
+      "testConfig": {
+        "BenchmarkRun": "",
+        "BlockTimeMilliseconds": 1000,
+        "GasLimit": 100000000,
+        "NodeType": "geth",
+        "TransactionPayload": "ecrecover-full-block"
+      },
+      "result": {
+        "success": true,
+        "complete": true,
+        "sequencerMetrics": {
+          "gasPerSecond": 92421164.58310558,
+          "forkChoiceUpdated": 0.0032668954500000005,
+          "getPayload": 0.014899866849999999,
+          "sendTxs": 0.0396568999
+        },
+        "validatorMetrics": {
+          "gasPerSecond": 89844442.29678456,
+          "newPayload": 1.0478944049999999
+        }
+      },
+      "thresholds": null,
+      "createdAt": "2025-10-28T20:10:17.442776131Z"
+    },
+    {
+      "id": "test-1761682217442690",
+      "sourceFile": "blog/compare-clients.yml",
+      "outputDir": "test-1761682217442690-20",
+      "testName": "Client Comparison Example",
+      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 50 blocks.\n",
+      "testConfig": {
+        "BenchmarkRun": "",
+        "BlockTimeMilliseconds": 1000,
+        "GasLimit": 75000000,
+        "NodeType": "reth",
+        "TransactionPayload": "sha256hash-full-block"
+      },
+      "result": {
+        "success": true,
+        "complete": true,
+        "sequencerMetrics": {
+          "gasPerSecond": 72362118.45245908,
+          "forkChoiceUpdated": 0.0005135614000000001,
+          "getPayload": 0.00264756935,
+          "sendTxs": 0.008954739649999998
+        },
+        "validatorMetrics": {
+          "gasPerSecond": 1229931098.6714168,
+          "newPayload": 0.0591327203
+        }
+      },
+      "thresholds": null,
+      "createdAt": "2025-10-28T20:10:17.442776131Z"
+    },
+    {
+      "id": "test-1761682217442690",
+      "sourceFile": "blog/compare-clients.yml",
+      "outputDir": "test-1761682217442690-21",
+      "testName": "Client Comparison Example",
+      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 50 blocks.\n",
+      "testConfig": {
+        "BenchmarkRun": "",
+        "BlockTimeMilliseconds": 1000,
+        "GasLimit": 100000000,
+        "NodeType": "reth",
+        "TransactionPayload": "sha256hash-full-block"
+      },
+      "result": {
+        "success": true,
+        "complete": true,
+        "sequencerMetrics": {
+          "gasPerSecond": 97571583.44250627,
+          "forkChoiceUpdated": 0.0005394096999999999,
+          "getPayload": 0.00331728305,
+          "sendTxs": 0.0122121189
+        },
+        "validatorMetrics": {
+          "gasPerSecond": 1215998384.928083,
+          "newPayload": 0.08070481085
+        }
+      },
+      "thresholds": null,
+      "createdAt": "2025-10-28T20:10:17.442776131Z"
+    },
+    {
+      "id": "test-1761682217442690",
+      "sourceFile": "blog/compare-clients.yml",
+      "outputDir": "test-1761682217442690-22",
+      "testName": "Client Comparison Example",
+      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 50 blocks.\n",
+      "testConfig": {
+        "BenchmarkRun": "",
+        "BlockTimeMilliseconds": 1000,
+        "GasLimit": 75000000,
+        "NodeType": "geth",
+        "TransactionPayload": "sha256hash-full-block"
+      },
+      "result": {
+        "success": true,
+        "complete": true,
+        "sequencerMetrics": {
+          "gasPerSecond": 72033205.53621486,
+          "forkChoiceUpdated": 0.0021747384,
+          "getPayload": 0.0050826410499999995,
+          "sendTxs": 0.014131628900000002
+        },
+        "validatorMetrics": {
+          "gasPerSecond": 315489800.2911687,
+          "newPayload": 0.23068156320000002
+        }
+      },
+      "thresholds": null,
+      "createdAt": "2025-10-28T20:10:17.442776131Z"
+    },
+    {
+      "id": "test-1761682217442690",
+      "sourceFile": "blog/compare-clients.yml",
+      "outputDir": "test-1761682217442690-23",
+      "testName": "Client Comparison Example",
+      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 50 blocks.\n",
+      "testConfig": {
+        "BenchmarkRun": "",
+        "BlockTimeMilliseconds": 1000,
+        "GasLimit": 100000000,
+        "NodeType": "geth",
+        "TransactionPayload": "sha256hash-full-block"
+      },
+      "result": {
+        "success": true,
+        "complete": true,
+        "sequencerMetrics": {
+          "gasPerSecond": 97051094.19798708,
+          "forkChoiceUpdated": 0.0025550028,
+          "getPayload": 0.00607893125,
+          "sendTxs": 0.019351582200000002
+        },
+        "validatorMetrics": {
+          "gasPerSecond": 321978203.14526796,
+          "newPayload": 0.3049070847
+        }
+      },
+      "thresholds": null,
+      "createdAt": "2025-10-28T20:10:17.442776131Z"
+    },
+    {
+      "id": "test-1761682217442690",
+      "sourceFile": "blog/compare-clients.yml",
+      "outputDir": "test-1761682217442690-24",
+      "testName": "Client Comparison Example",
+      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 50 blocks.\n",
+      "testConfig": {
+        "BenchmarkRun": "",
+        "BlockTimeMilliseconds": 1000,
+        "GasLimit": 75000000,
+        "NodeType": "reth",
+        "TransactionPayload": "bls12381MapG1-full-block"
+      },
+      "result": {
+        "success": true,
+        "complete": true,
+        "sequencerMetrics": {
+          "gasPerSecond": 72839040.42154133,
+          "forkChoiceUpdated": 0.0005224869,
+          "getPayload": 0.0026939666999999997,
+          "sendTxs": 0.009207791949999999
+        },
+        "validatorMetrics": {
+          "gasPerSecond": 2057663385.5020306,
+          "newPayload": 0.03574052185
+        }
+      },
+      "thresholds": null,
+      "createdAt": "2025-10-28T20:10:17.442776131Z"
+    },
+    {
+      "id": "test-1761682217442690",
+      "sourceFile": "blog/compare-clients.yml",
+      "outputDir": "test-1761682217442690-25",
+      "testName": "Client Comparison Example",
+      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 50 blocks.\n",
+      "testConfig": {
+        "BenchmarkRun": "",
+        "BlockTimeMilliseconds": 1000,
+        "GasLimit": 100000000,
+        "NodeType": "reth",
+        "TransactionPayload": "bls12381MapG1-full-block"
+      },
+      "result": {
+        "success": true,
+        "complete": true,
+        "sequencerMetrics": {
+          "gasPerSecond": 97615921.30181246,
+          "forkChoiceUpdated": 0.0005221301,
+          "getPayload": 0.0033778970499999997,
+          "sendTxs": 0.0124759291
+        },
+        "validatorMetrics": {
+          "gasPerSecond": 2085105879.773576,
+          "newPayload": 0.04716754905
+        }
+      },
+      "thresholds": null,
+      "createdAt": "2025-10-28T20:10:17.442776131Z"
+    },
+    {
+      "id": "test-1761682217442690",
+      "sourceFile": "blog/compare-clients.yml",
+      "outputDir": "test-1761682217442690-26",
+      "testName": "Client Comparison Example",
+      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 50 blocks.\n",
+      "testConfig": {
+        "BenchmarkRun": "",
+        "BlockTimeMilliseconds": 1000,
+        "GasLimit": 75000000,
+        "NodeType": "geth",
+        "TransactionPayload": "bls12381MapG1-full-block"
+      },
+      "result": {
+        "success": true,
+        "complete": true,
+        "sequencerMetrics": {
+          "gasPerSecond": 72489410.20235556,
+          "forkChoiceUpdated": 0.0021155040500000005,
+          "getPayload": 0.0054828158000000005,
+          "sendTxs": 0.0142698892
+        },
+        "validatorMetrics": {
+          "gasPerSecond": 92204774.87518154,
+          "newPayload": 0.7926483368
+        }
+      },
+      "thresholds": null,
+      "createdAt": "2025-10-28T20:10:17.442776131Z"
+    },
+    {
+      "id": "test-1761682217442690",
+      "sourceFile": "blog/compare-clients.yml",
+      "outputDir": "test-1761682217442690-27",
+      "testName": "Client Comparison Example",
+      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 50 blocks.\n",
+      "testConfig": {
+        "BenchmarkRun": "",
+        "BlockTimeMilliseconds": 1000,
+        "GasLimit": 100000000,
+        "NodeType": "geth",
+        "TransactionPayload": "bls12381MapG1-full-block"
+      },
+      "result": {
+        "success": true,
+        "complete": true,
+        "sequencerMetrics": {
+          "gasPerSecond": 96929511.95456025,
+          "forkChoiceUpdated": 0.00248338825,
+          "getPayload": 0.00813068185,
+          "sendTxs": 0.020067821950000002
+        },
+        "validatorMetrics": {
+          "gasPerSecond": 92435667.2093564,
+          "newPayload": 1.0603604673999998
+        }
+      },
+      "thresholds": null,
+      "createdAt": "2025-10-28T20:10:17.442776131Z"
+    },
+    {
+      "id": "test-1761682217442690",
+      "sourceFile": "blog/compare-clients.yml",
+      "outputDir": "test-1761682217442690-28",
+      "testName": "Client Comparison Example",
+      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 50 blocks.\n",
+      "testConfig": {
+        "BenchmarkRun": "",
+        "BlockTimeMilliseconds": 1000,
+        "GasLimit": 75000000,
+        "NodeType": "reth",
+        "TransactionPayload": "bls12381MapG2-full-block"
+      },
+      "result": {
+        "success": true,
+        "complete": true,
+        "sequencerMetrics": {
+          "gasPerSecond": 72567029.93239078,
+          "forkChoiceUpdated": 0.0005360663999999999,
+          "getPayload": 0.0011634006500000002,
+          "sendTxs": 0.0032229367499999996
+        },
+        "validatorMetrics": {
+          "gasPerSecond": 4333777907.561009,
+          "newPayload": 0.017331777350000004
+        }
+      },
+      "thresholds": null,
+      "createdAt": "2025-10-28T20:10:17.442776131Z"
+    },
+    {
+      "id": "test-1761682217442690",
+      "sourceFile": "blog/compare-clients.yml",
+      "outputDir": "test-1761682217442690-29",
+      "testName": "Client Comparison Example",
+      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 50 blocks.\n",
+      "testConfig": {
+        "BenchmarkRun": "",
+        "BlockTimeMilliseconds": 1000,
+        "GasLimit": 100000000,
+        "NodeType": "reth",
+        "TransactionPayload": "bls12381MapG2-full-block"
+      },
+      "result": {
+        "success": true,
+        "complete": true,
+        "sequencerMetrics": {
+          "gasPerSecond": 97644769.603044,
+          "forkChoiceUpdated": 0.0004904146999999999,
+          "getPayload": 0.00145978075,
+          "sendTxs": 0.0041267206
+        },
+        "validatorMetrics": {
+          "gasPerSecond": 4790922413.778601,
+          "newPayload": 0.020942216049999997
+        }
+      },
+      "thresholds": null,
+      "createdAt": "2025-10-28T20:10:17.442776131Z"
+    },
+    {
+      "id": "test-1761682217442690",
+      "sourceFile": "blog/compare-clients.yml",
+      "outputDir": "test-1761682217442690-30",
+      "testName": "Client Comparison Example",
+      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 50 blocks.\n",
+      "testConfig": {
+        "BenchmarkRun": "",
+        "BlockTimeMilliseconds": 1000,
+        "GasLimit": 75000000,
+        "NodeType": "geth",
+        "TransactionPayload": "bls12381MapG2-full-block"
+      },
+      "result": {
+        "success": true,
+        "complete": true,
+        "sequencerMetrics": {
+          "gasPerSecond": 72379562.25558835,
+          "forkChoiceUpdated": 0.0014418413,
+          "getPayload": 0.0023509835500000005,
+          "sendTxs": 0.0053684811
+        },
+        "validatorMetrics": {
+          "gasPerSecond": 98718992.6394808,
+          "newPayload": 0.736561194
+        }
+      },
+      "thresholds": null,
+      "createdAt": "2025-10-28T20:10:17.442776131Z"
+    },
+    {
+      "id": "test-1761682217442690",
+      "sourceFile": "blog/compare-clients.yml",
+      "outputDir": "test-1761682217442690-31",
+      "testName": "Client Comparison Example",
+      "testDescription": "Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 50 blocks.\n",
+      "testConfig": {
+        "BenchmarkRun": "",
+        "BlockTimeMilliseconds": 1000,
+        "GasLimit": 100000000,
+        "NodeType": "geth",
+        "TransactionPayload": "bls12381MapG2-full-block"
+      },
+      "result": {
+        "success": true,
+        "complete": true,
+        "sequencerMetrics": {
+          "gasPerSecond": 97364294.32637802,
+          "forkChoiceUpdated": 0.0016058684,
+          "getPayload": 0.0029007037499999997,
+          "sendTxs": 0.0065092251
+        },
+        "validatorMetrics": {
+          "gasPerSecond": 98539788.98606695,
+          "newPayload": 0.9930555391999999
+        }
+      },
+      "thresholds": null,
+      "createdAt": "2025-10-28T20:10:17.442776131Z"
+    }
+  ],
+  "createdAt": null
+}
