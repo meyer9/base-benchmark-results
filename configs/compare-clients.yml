@@ -1,0 +1,88 @@
+name: Client Comparison Example
+description: |
+  Compares performance of Reth vs. Geth on a variety of opcodes and workloads. This test runs on a Base Mainnet snapshot, so the storage numbers are close to what they would be for a block on Base Mainnet. However, caching plays a role in performance, so don't interpret these results as absolute performance numbers. This test runs for 50 blocks.
+
+payloads:
+  - name: Transfer-only
+    id: transfer-only
+    type: transfer-only
+  - name: Simulator
+    id: base-mainnet-simulation
+    type: simulator
+    account_loaded: 12.382
+    account_deleted: 0.0127
+    accounts_updated: 4.6117
+    accounts_created: 0.16
+    storage_loaded: 49.405
+    storage_deleted: 0.4651
+    storage_updated: 9.439
+    storage_created: 2
+    code_size_loaded: 662473.15
+    num_contracts_loaded: 4.330
+    avg_gas_used: 35000000
+    calls_per_block: 100
+    opcodes:
+      EXP: 626.30
+      KECCAK256: 29.21
+    precompiles:
+      bls12381MapG2: 0.6981
+      ecrecover: 0.0733
+      bls12381G1Add: 0.0244
+      bls12381G1MultiExp: 0.0218
+  - name: storage create (full block)
+    id: storage-create-full-block
+    type: simulator
+    storage_created: 100
+  - name: storage update (full block)
+    id: storage-update-full-block
+    type: simulator
+    storage_updated: 100
+  - name: ecrecover (full block)
+    id: ecrecover-full-block
+    type: simulator
+    precompiles:
+      ecrecover: 100
+  - name: sha256hash (full block)
+    id: sha256hash-full-block
+    type: simulator
+    precompiles:
+      sha256hash: 100
+  - name: bls12381MapG1 (full block)
+    id: bls12381MapG1-full-block
+    type: simulator
+    precompiles:
+      bls12381MapG1: 100
+  - name: bls12381MapG2 (full block)
+    id: bls12381MapG2-full-block
+    type: simulator
+    precompiles:
+      bls12381MapG2: 100
+  - name: p256Verify (full block)
+    id: p256Verify-full-block
+    type: simulator
+    precompiles:
+      p256Verify: 100
+      
+benchmarks:
+  - variables:
+      - type: payload
+        values:
+          - transfer-only
+          - base-mainnet-simulation
+          - storage-create-full-block
+          - storage-update-full-block
+          - ecrecover-full-block
+          - sha256hash-full-block
+          - bls12381MapG1-full-block
+          - bls12381MapG2-full-block
+          - p256Verify-full-block
+      - type: node_type
+        values:
+          - reth
+          - geth
+      - type: num_blocks
+        value: 20
+      - type: gas_limit
+        values:
+          - 75000000
+          - 100000000

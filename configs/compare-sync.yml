@@ -1,0 +1,26 @@
+name: Reth SAFE_NO_SYNC Comparison Example
+description: |
+  Compares performance of Reth SAFE_NO_SYNC vs. DURABLE options with a write-heavy workload. This was run on ZFS for easy iteration, so the results are not directly comparable to other filesystems.
+
+payloads:
+  - name: Storage Create
+    id: storage-create
+    type: simulator
+    storage_created: 1
+      
+benchmarks:
+  - variables:
+      - type: payload
+        values:
+          - storage-create
+      - type: node_type
+        values:
+          - reth
+      - type: num_blocks
+        value: 100
+      - type: node_args
+        values:
+          - ["--db.sync-mode", "safe_no_sync"]
+          - ["--db.sync-mode", "durable"]
+      - type: gas_limit
+        value: 75000000
