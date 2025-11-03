@@ -1,0 +1,33 @@
+name: Machine type comparison
+description: |
+  Tests the performance of storage creates against different machine types. These were run against a Base mainnet snapshot.
+
+payloads:
+  - name: storage create (full block)
+    id: storage-create-full-block
+    type: simulator
+    storage_created: 100
+
+benchmarks:
+  - metrics:
+      warning:
+        sequencer/latency/get_payload: 1000000000
+        validator/latency/new_payload: 1000000000
+      error:
+        sequencer/latency/get_payload: 1500000000
+        validator/latency/new_payload: 1500000000
+    variables:
+      - type: payload
+        values:
+          - storage-create-full-block
+      - type: node_type
+        values:
+          - reth
+      - type: num_blocks
+        value: 20
+      - type: gas_limit
+        values:
+          - 25000000
+          - 50000000
+          - 75000000
+          - 100000000
