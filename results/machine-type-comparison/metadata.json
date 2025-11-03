@@ -7,7 +7,7 @@
       "testName": "Cross-sectional instance test",
       "testDescription": "This test is meant to show how well an instance performs under different transaction workloads and gas limits.",
       "testConfig": {
-        "BenchmarkRun": "37fe743e751395d9",
+        "BenchmarkRun": "0d7cc8ba56afc684",
         "BlockTimeMilliseconds": 1000,
         "GasLimit": 25000000,
         "NodeType": "reth",
@@ -47,7 +47,7 @@
       "testName": "Cross-sectional instance test",
       "testDescription": "This test is meant to show how well an instance performs under different transaction workloads and gas limits.",
       "testConfig": {
-        "BenchmarkRun": "37fe743e751395d9",
+        "BenchmarkRun": "0d7cc8ba56afc684",
         "BlockTimeMilliseconds": 1000,
         "GasLimit": 50000000,
         "NodeType": "reth",
@@ -87,7 +87,7 @@
       "testName": "Cross-sectional instance test",
       "testDescription": "This test is meant to show how well an instance performs under different transaction workloads and gas limits.",
       "testConfig": {
-        "BenchmarkRun": "37fe743e751395d9",
+        "BenchmarkRun": "0d7cc8ba56afc684",
         "BlockTimeMilliseconds": 1000,
         "GasLimit": 75000000,
         "NodeType": "reth",
@@ -127,7 +127,7 @@
       "testName": "Cross-sectional instance test",
       "testDescription": "This test is meant to show how well an instance performs under different transaction workloads and gas limits.",
       "testConfig": {
-        "BenchmarkRun": "37fe743e751395d9",
+        "BenchmarkRun": "0d7cc8ba56afc684",
         "BlockTimeMilliseconds": 1000,
         "GasLimit": 100000000,
         "NodeType": "reth",
@@ -161,13 +161,333 @@
       "createdAt": "2025-08-21T20:12:29.726654454Z"
     },
     {
+      "id": "test-1755807149726550",
+      "sourceFile": "../cross-section.yaml",
+      "outputDir": "test-1755807149726550-20",
+      "testName": "Cross-sectional instance test",
+      "testDescription": "This test is meant to show how well an instance performs under different transaction workloads and gas limits.",
+      "testConfig": {
+        "BenchmarkRun": "0d7cc8ba56afc684",
+        "BlockTimeMilliseconds": 1000,
+        "GasLimit": 25000000,
+        "NodeType": "geth",
+        "TransactionPayload": "storage-create-full-block",
+        "instance": "i7ie.48xlarge"
+      },
+      "result": {
+        "success": true,
+        "complete": true,
+        "sequencerMetrics": {
+          "gasPerSecond": 22837690.17416003,
+          "forkChoiceUpdated": 0.0019745412,
+          "getPayload": 0.00283613,
+          "sendTxs": 0.0030433420999999997
+        },
+        "validatorMetrics": {
+          "gasPerSecond": 391977399.8972007,
+          "newPayload": 0.06591452825
+        }
+      },
+      "thresholds": {
+        "warning": {
+          "sequencer/latency/get_payload": 1000000000,
+          "validator/latency/new_payload": 1000000000
+        },
+        "error": {
+          "sequencer/latency/get_payload": 1500000000,
+          "validator/latency/new_payload": 1500000000
+        }
+      },
+      "createdAt": "2025-08-21T20:12:29.726654454Z"
+    },
+    {
+      "id": "test-1755807149726550",
+      "sourceFile": "../cross-section.yaml",
+      "outputDir": "test-1755807149726550-21",
+      "testName": "Cross-sectional instance test",
+      "testDescription": "This test is meant to show how well an instance performs under different transaction workloads and gas limits.",
+      "testConfig": {
+        "BenchmarkRun": "0d7cc8ba56afc684",
+        "BlockTimeMilliseconds": 1000,
+        "GasLimit": 50000000,
+        "NodeType": "geth",
+        "TransactionPayload": "storage-create-full-block",
+        "instance": "i7ie.48xlarge"
+      },
+      "result": {
+        "success": true,
+        "complete": true,
+        "sequencerMetrics": {
+          "gasPerSecond": 47832829.01342005,
+          "forkChoiceUpdated": 0.0018842825500000001,
+          "getPayload": 0.0042907036,
+          "sendTxs": 0.00397056315
+        },
+        "validatorMetrics": {
+          "gasPerSecond": 388017684.35167104,
+          "newPayload": 0.1414722591
+        }
+      },
+      "thresholds": {
+        "warning": {
+          "sequencer/latency/get_payload": 1000000000,
+          "validator/latency/new_payload": 1000000000
+        },
+        "error": {
+          "sequencer/latency/get_payload": 1500000000,
+          "validator/latency/new_payload": 1500000000
+        }
+      },
+      "createdAt": "2025-08-21T20:12:29.726654454Z"
+    },
+    {
+      "id": "test-1755807149726550",
+      "sourceFile": "../cross-section.yaml",
+      "outputDir": "test-1755807149726550-22",
+      "testName": "Cross-sectional instance test",
+      "testDescription": "This test is meant to show how well an instance performs under different transaction workloads and gas limits.",
+      "testConfig": {
+        "BenchmarkRun": "0d7cc8ba56afc684",
+        "BlockTimeMilliseconds": 1000,
+        "GasLimit": 75000000,
+        "NodeType": "geth",
+        "TransactionPayload": "storage-create-full-block",
+        "instance": "i7ie.48xlarge"
+      },
+      "result": {
+        "success": true,
+        "complete": true,
+        "sequencerMetrics": {
+          "gasPerSecond": 72855987.51893899,
+          "forkChoiceUpdated": 0.0025018910500000002,
+          "getPayload": 0.0039157033,
+          "sendTxs": 0.0061079525499999985
+        },
+        "validatorMetrics": {
+          "gasPerSecond": 417700410.8445736,
+          "newPayload": 0.1839393308
+        }
+      },
+      "thresholds": {
+        "warning": {
+          "sequencer/latency/get_payload": 1000000000,
+          "validator/latency/new_payload": 1000000000
+        },
+        "error": {
+          "sequencer/latency/get_payload": 1500000000,
+          "validator/latency/new_payload": 1500000000
+        }
+      },
+      "createdAt": "2025-08-21T20:12:29.726654454Z"
+    },
+    {
+      "id": "test-1755807149726550",
+      "sourceFile": "../cross-section.yaml",
+      "outputDir": "test-1755807149726550-23",
+      "testName": "Cross-sectional instance test",
+      "testDescription": "This test is meant to show how well an instance performs under different transaction workloads and gas limits.",
+      "testConfig": {
+        "BenchmarkRun": "0d7cc8ba56afc684",
+        "BlockTimeMilliseconds": 1000,
+        "GasLimit": 100000000,
+        "NodeType": "geth",
+        "TransactionPayload": "storage-create-full-block",
+        "instance": "i7ie.48xlarge"
+      },
+      "result": {
+        "success": true,
+        "complete": true,
+        "sequencerMetrics": {
+          "gasPerSecond": 95569546.83708845,
+          "forkChoiceUpdated": 0.0033043750999999996,
+          "getPayload": 0.0037045366,
+          "sendTxs": 0.011620346199999998
+        },
+        "validatorMetrics": {
+          "gasPerSecond": 380092935.92478573,
+          "newPayload": 0.26843447075000004
+        }
+      },
+      "thresholds": {
+        "warning": {
+          "sequencer/latency/get_payload": 1000000000,
+          "validator/latency/new_payload": 1000000000
+        },
+        "error": {
+          "sequencer/latency/get_payload": 1500000000,
+          "validator/latency/new_payload": 1500000000
+        }
+      },
+      "createdAt": "2025-08-21T20:12:29.726654454Z"
+    },
+    {
+      "id": "test-1755808835708765",
+      "sourceFile": "../cross-section.yaml",
+      "outputDir": "test-1755808835708765-8",
+      "testName": "Cross-sectional instance test",
+      "testDescription": "This test is meant to show how well an instance performs under different transaction workloads and gas limits.",
+      "testConfig": {
+        "BenchmarkRun": "0d7cc8ba56afc684",
+        "BlockTimeMilliseconds": 1000,
+        "GasLimit": 25000000,
+        "NodeType": "geth",
+        "TransactionPayload": "storage-create-full-block",
+        "instance": "z3-highmem-88-highlssd"
+      },
+      "result": {
+        "success": true,
+        "complete": true,
+        "sequencerMetrics": {
+          "gasPerSecond": 22880789.746639095,
+          "forkChoiceUpdated": 0.00153044845,
+          "getPayload": 0.0015758078,
+          "sendTxs": 0.0023262456999999996
+        },
+        "validatorMetrics": {
+          "gasPerSecond": 424288421.4525606,
+          "newPayload": 0.05721156330000001
+        }
+      },
+      "thresholds": {
+        "warning": {
+          "sequencer/latency/get_payload": 1000000000,
+          "validator/latency/new_payload": 1000000000
+        },
+        "error": {
+          "sequencer/latency/get_payload": 1500000000,
+          "validator/latency/new_payload": 1500000000
+        }
+      },
+      "createdAt": "2025-08-21T20:40:35.70880165Z"
+    },
+    {
+      "id": "test-1755808835708765",
+      "sourceFile": "../cross-section.yaml",
+      "outputDir": "test-1755808835708765-9",
+      "testName": "Cross-sectional instance test",
+      "testDescription": "This test is meant to show how well an instance performs under different transaction workloads and gas limits.",
+      "testConfig": {
+        "BenchmarkRun": "0d7cc8ba56afc684",
+        "BlockTimeMilliseconds": 1000,
+        "GasLimit": 50000000,
+        "NodeType": "geth",
+        "TransactionPayload": "storage-create-full-block",
+        "instance": "z3-highmem-88-highlssd"
+      },
+      "result": {
+        "success": true,
+        "complete": true,
+        "sequencerMetrics": {
+          "gasPerSecond": 47953757.022991024,
+          "forkChoiceUpdated": 0.0017471411499999998,
+          "getPayload": 0.0022312777,
+          "sendTxs": 0.0042762978
+        },
+        "validatorMetrics": {
+          "gasPerSecond": 415949727.8399819,
+          "newPayload": 0.11913781510000003
+        }
+      },
+      "thresholds": {
+        "warning": {
+          "sequencer/latency/get_payload": 1000000000,
+          "validator/latency/new_payload": 1000000000
+        },
+        "error": {
+          "sequencer/latency/get_payload": 1500000000,
+          "validator/latency/new_payload": 1500000000
+        }
+      },
+      "createdAt": "2025-08-21T20:40:35.70880165Z"
+    },
+    {
+      "id": "test-1755808835708765",
+      "sourceFile": "../cross-section.yaml",
+      "outputDir": "test-1755808835708765-10",
+      "testName": "Cross-sectional instance test",
+      "testDescription": "This test is meant to show how well an instance performs under different transaction workloads and gas limits.",
+      "testConfig": {
+        "BenchmarkRun": "0d7cc8ba56afc684",
+        "BlockTimeMilliseconds": 1000,
+        "GasLimit": 75000000,
+        "NodeType": "geth",
+        "TransactionPayload": "storage-create-full-block",
+        "instance": "z3-highmem-88-highlssd"
+      },
+      "result": {
+        "success": true,
+        "complete": true,
+        "sequencerMetrics": {
+          "gasPerSecond": 73024502.86497727,
+          "forkChoiceUpdated": 0.0018904368500000002,
+          "getPayload": 0.0024047090999999997,
+          "sendTxs": 0.0056650391500000005
+        },
+        "validatorMetrics": {
+          "gasPerSecond": 394786676.7544662,
+          "newPayload": 0.19185153930000004
+        }
+      },
+      "thresholds": {
+        "warning": {
+          "sequencer/latency/get_payload": 1000000000,
+          "validator/latency/new_payload": 1000000000
+        },
+        "error": {
+          "sequencer/latency/get_payload": 1500000000,
+          "validator/latency/new_payload": 1500000000
+        }
+      },
+      "createdAt": "2025-08-21T20:40:35.70880165Z"
+    },
+    {
+      "id": "test-1755808835708765",
+      "sourceFile": "../cross-section.yaml",
+      "outputDir": "test-1755808835708765-11",
+      "testName": "Cross-sectional instance test",
+      "testDescription": "This test is meant to show how well an instance performs under different transaction workloads and gas limits.",
+      "testConfig": {
+        "BenchmarkRun": "0d7cc8ba56afc684",
+        "BlockTimeMilliseconds": 1000,
+        "GasLimit": 100000000,
+        "NodeType": "geth",
+        "TransactionPayload": "storage-create-full-block",
+        "instance": "z3-highmem-88-highlssd"
+      },
+      "result": {
+        "success": true,
+        "complete": true,
+        "sequencerMetrics": {
+          "gasPerSecond": 95778648.2062253,
+          "forkChoiceUpdated": 0.00184971595,
+          "getPayload": 0.00291325875,
+          "sendTxs": 0.007861353500000001
+        },
+        "validatorMetrics": {
+          "gasPerSecond": 373267877.5066372,
+          "newPayload": 0.26271107374999997
+        }
+      },
+      "thresholds": {
+        "warning": {
+          "sequencer/latency/get_payload": 1000000000,
+          "validator/latency/new_payload": 1000000000
+        },
+        "error": {
+          "sequencer/latency/get_payload": 1500000000,
+          "validator/latency/new_payload": 1500000000
+        }
+      },
+      "createdAt": "2025-08-21T20:40:35.70880165Z"
+    },
+    {
       "id": "test-1755879109826369",
       "sourceFile": "../cross-section.yaml",
       "outputDir": "test-1755879109826369-8",
       "testName": "Cross-sectional instance test",
       "testDescription": "This test is meant to show how well an instance performs under different transaction workloads and gas limits.",
       "testConfig": {
-        "BenchmarkRun": "37fe743e751395d9",
+        "BenchmarkRun": "0d7cc8ba56afc684",
         "BlockTimeMilliseconds": 1000,
         "GasLimit": 25000000,
         "NodeType": "reth",
@@ -207,7 +527,7 @@
       "testName": "Cross-sectional instance test",
       "testDescription": "This test is meant to show how well an instance performs under different transaction workloads and gas limits.",
       "testConfig": {
-        "BenchmarkRun": "37fe743e751395d9",
+        "BenchmarkRun": "0d7cc8ba56afc684",
         "BlockTimeMilliseconds": 1000,
         "GasLimit": 50000000,
         "NodeType": "reth",
@@ -247,7 +567,7 @@
       "testName": "Cross-sectional instance test",
       "testDescription": "This test is meant to show how well an instance performs under different transaction workloads and gas limits.",
       "testConfig": {
-        "BenchmarkRun": "37fe743e751395d9",
+        "BenchmarkRun": "0d7cc8ba56afc684",
         "BlockTimeMilliseconds": 1000,
         "GasLimit": 75000000,
         "NodeType": "reth",
@@ -287,7 +607,7 @@
       "testName": "Cross-sectional instance test",
       "testDescription": "This test is meant to show how well an instance performs under different transaction workloads and gas limits.",
       "testConfig": {
-        "BenchmarkRun": "37fe743e751395d9",
+        "BenchmarkRun": "0d7cc8ba56afc684",
         "BlockTimeMilliseconds": 1000,
         "GasLimit": 100000000,
         "NodeType": "reth",
