@@ -1,0 +1,67 @@
+{
+  "runs": [
+    {
+      "id": "test-1761852786583234",
+      "sourceFile": "../base-benchmark-results/configs/compare-sync.yml",
+      "outputDir": "test-1761852786583234-0",
+      "testName": "Reth SAFE_NO_SYNC Comparison Example",
+      "testDescription": "Compares performance of Reth SAFE_NO_SYNC vs. DURABLE options with a write-heavy workload. This was run on ZFS for easy iteration, so the results are not directly comparable to other filesystems.\n",
+      "testConfig": {
+        "BenchmarkRun": "",
+        "BlockTimeMilliseconds": 1000,
+        "GasLimit": 75000000,
+        "NodeArgs": "--db.sync-mode safe_no_sync",
+        "NodeType": "reth",
+        "TransactionPayload": "storage-create"
+      },
+      "result": {
+        "success": true,
+        "complete": true,
+        "sequencerMetrics": {
+          "gasPerSecond": 69572379.2906906,
+          "forkChoiceUpdated": 0.0009725510999999999,
+          "getPayload": 0.023987188380000003,
+          "sendTxs": 0.12302770331999997
+        },
+        "validatorMetrics": {
+          "gasPerSecond": 715273345.4306957,
+          "newPayload": 0.10206513833000005
+        }
+      },
+      "thresholds": null,
+      "createdAt": "2025-10-30T19:33:06.583308653Z"
+    },
+    {
+      "id": "test-1761852786583234",
+      "sourceFile": "../base-benchmark-results/configs/compare-sync.yml",
+      "outputDir": "test-1761852786583234-1",
+      "testName": "Reth SAFE_NO_SYNC Comparison Example",
+      "testDescription": "Compares performance of Reth SAFE_NO_SYNC vs. DURABLE options with a write-heavy workload. This was run on ZFS for easy iteration, so the results are not directly comparable to other filesystems.\n",
+      "testConfig": {
+        "BenchmarkRun": "",
+        "BlockTimeMilliseconds": 1000,
+        "GasLimit": 75000000,
+        "NodeArgs": "--db.sync-mode durable",
+        "NodeType": "reth",
+        "TransactionPayload": "storage-create"
+      },
+      "result": {
+        "success": true,
+        "complete": true,
+        "sequencerMetrics": {
+          "gasPerSecond": 69561726.88684867,
+          "forkChoiceUpdated": 0.0009296895500000003,
+          "getPayload": 0.024134808850000012,
+          "sendTxs": 0.11553290728999999
+        },
+        "validatorMetrics": {
+          "gasPerSecond": 713714224.2557051,
+          "newPayload": 0.10206169058
+        }
+      },
+      "thresholds": null,
+      "createdAt": "2025-10-30T19:33:06.583308653Z"
+    }
+  ],
+  "createdAt": null
+}
