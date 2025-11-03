@@ -1,0 +1,242 @@
+[
+  {
+    "BlockNumber": 0,
+    "Timestamp": "2025-08-22T16:35:29.636682057Z",
+    "ExecutionMetrics": {
+      "gas/per_block": 96294058,
+      "gas/per_second": 32996966696.021957,
+      "latency/new_payload": 2918270,
+      "latency/update_fork_choice": 277854,
+      "reth_sync_block_validation_state_root_duration": 0,
+      "reth_sync_execution_execution_duration": 0
+    }
+  },
+  {
+    "BlockNumber": 1,
+    "Timestamp": "2025-08-22T16:35:29.636682057Z",
+    "ExecutionMetrics": {
+      "gas/per_block": 96294058,
+      "gas/per_second": 43953010738.798485,
+      "latency/new_payload": 2190841,
+      "latency/update_fork_choice": 315735,
+      "reth_sync_block_validation_state_root_duration": 0,
+      "reth_sync_execution_execution_duration": 0
+    }
+  },
+  {
+    "BlockNumber": 2,
+    "Timestamp": "2025-08-22T16:35:29.636682057Z",
+    "ExecutionMetrics": {
+      "gas/per_block": 96294058,
+      "gas/per_second": 42139127215.50395,
+      "latency/new_payload": 2285146,
+      "latency/update_fork_choice": 342796,
+      "reth_sync_block_validation_state_root_duration": 0,
+      "reth_sync_execution_execution_duration": 0
+    }
+  },
+  {
+    "BlockNumber": 3,
+    "Timestamp": "2025-08-22T16:35:29.636682057Z",
+    "ExecutionMetrics": {
+      "gas/per_block": 96294058,
+      "gas/per_second": 48127056271.64727,
+      "latency/new_payload": 2000830,
+      "latency/update_fork_choice": 416103,
+      "reth_sync_block_validation_state_root_duration": 0,
+      "reth_sync_execution_execution_duration": 0
+    }
+  },
+  {
+    "BlockNumber": 4,
+    "Timestamp": "2025-08-22T16:35:29.636682057Z",
+    "ExecutionMetrics": {
+      "gas/per_block": 96294058,
+      "gas/per_second": 28833750445.408623,
+      "latency/new_payload": 3339630,
+      "latency/update_fork_choice": 390460,
+      "reth_sync_block_validation_state_root_duration": 0,
+      "reth_sync_execution_execution_duration": 0
+    }
+  },
+  {
+    "BlockNumber": 5,
+    "Timestamp": "2025-08-22T16:35:29.636682057Z",
+    "ExecutionMetrics": {
+      "gas/per_block": 96294058,
+      "gas/per_second": 34713771438.788956,
+      "latency/new_payload": 2773944,
+      "latency/update_fork_choice": 352642,
+      "reth_sync_block_validation_state_root_duration": 0,
+      "reth_sync_execution_execution_duration": 0
+    }
+  },
+  {
+    "BlockNumber": 6,
+    "Timestamp": "2025-08-22T16:35:29.636682057Z",
+    "ExecutionMetrics": {
+      "gas/per_block": 96294058,
+      "gas/per_second": 43352599943.36352,
+      "latency/new_payload": 2221183,
+      "latency/update_fork_choice": 300835,
+      "reth_sync_block_validation_state_root_duration": 0,
+      "reth_sync_execution_execution_duration": 0
+    }
+  },
+  {
+    "BlockNumber": 7,
+    "Timestamp": "2025-08-22T16:35:29.636682057Z",
+    "ExecutionMetrics": {
+      "gas/per_block": 96294058,
+      "gas/per_second": 49383442243.449234,
+      "latency/new_payload": 1949926,
+      "latency/update_fork_choice": 357350,
+      "reth_sync_block_validation_state_root_duration": 0,
+      "reth_sync_execution_execution_duration": 0
+    }
+  },
+  {
+    "BlockNumber": 8,
+    "Timestamp": "2025-08-22T16:35:29.636682057Z",
+    "ExecutionMetrics": {
+      "gas/per_block": 96294058,
+      "gas/per_second": 40443391927.37044,
+      "latency/new_payload": 2380959,
+      "latency/update_fork_choice": 357956,
+      "reth_sync_block_validation_state_root_duration": 0,
+      "reth_sync_execution_execution_duration": 0
+    }
+  },
+  {
+    "BlockNumber": 9,
+    "Timestamp": "2025-08-22T16:35:29.636682057Z",
+    "ExecutionMetrics": {
+      "gas/per_block": 96294058,
+      "gas/per_second": 34662064690.67508,
+      "latency/new_payload": 2778082,
+      "latency/update_fork_choice": 395629,
+      "reth_sync_block_validation_state_root_duration": 0,
+      "reth_sync_execution_execution_duration": 0
+    }
+  },
+  {
+    "BlockNumber": 10,
+    "Timestamp": "2025-08-22T16:35:29.636682057Z",
+    "ExecutionMetrics": {
+      "gas/per_block": 96294058,
+      "gas/per_second": 45528739485.309105,
+      "latency/new_payload": 2115017,
+      "latency/update_fork_choice": 316845,
+      "reth_sync_block_validation_state_root_duration": 0,
+      "reth_sync_execution_execution_duration": 0
+    }
+  },
+  {
+    "BlockNumber": 11,
+    "Timestamp": "2025-08-22T16:35:29.636682057Z",
+    "ExecutionMetrics": {
+      "gas/per_block": 96294058,
+      "gas/per_second": 30855874946.207172,
+      "latency/new_payload": 3120769,
+      "latency/update_fork_choice": 315599,
+      "reth_sync_block_validation_state_root_duration": 0,
+      "reth_sync_execution_execution_duration": 0
+    }
+  },
+  {
+    "BlockNumber": 12,
+    "Timestamp": "2025-08-22T16:35:29.636682057Z",
+    "ExecutionMetrics": {
+      "gas/per_block": 96294058,
+      "gas/per_second": 42600243053.143875,
+      "latency/new_payload": 2260411,
+      "latency/update_fork_choice": 313905,
+      "reth_sync_block_validation_state_root_duration": 0,
+      "reth_sync_execution_execution_duration": 0
+    }
+  },
+  {
+    "BlockNumber": 13,
+    "Timestamp": "2025-08-22T16:35:29.636682057Z",
+    "ExecutionMetrics": {
+      "gas/per_block": 96294058,
+      "gas/per_second": 43404755615.695915,
+      "latency/new_payload": 2218514,
+      "latency/update_fork_choice": 263291,
+      "reth_sync_block_validation_state_root_duration": 0,
+      "reth_sync_execution_execution_duration": 0
+    }
+  },
+  {
+    "BlockNumber": 14,
+    "Timestamp": "2025-08-22T16:35:29.636682057Z",
+    "ExecutionMetrics": {
+      "gas/per_block": 96294058,
+      "gas/per_second": 44033567263.70966,
+      "latency/new_payload": 2186833,
+      "latency/update_fork_choice": 377719,
+      "reth_sync_block_validation_state_root_duration": 0,
+      "reth_sync_execution_execution_duration": 0
+    }
+  },
+  {
+    "BlockNumber": 15,
+    "Timestamp": "2025-08-22T16:35:29.636682057Z",
+    "ExecutionMetrics": {
+      "gas/per_block": 96294058,
+      "gas/per_second": 51299348303.580894,
+      "latency/new_payload": 1877101,
+      "latency/update_fork_choice": 345960,
+      "reth_sync_block_validation_state_root_duration": 0,
+      "reth_sync_execution_execution_duration": 0
+    }
+  },
+  {
+    "BlockNumber": 16,
+    "Timestamp": "2025-08-22T16:35:29.636682057Z",
+    "ExecutionMetrics": {
+      "gas/per_block": 96294058,
+      "gas/per_second": 41573598660.92803,
+      "latency/new_payload": 2316231,
+      "latency/update_fork_choice": 285538,
+      "reth_sync_block_validation_state_root_duration": 0,
+      "reth_sync_execution_execution_duration": 0
+    }
+  },
+  {
+    "BlockNumber": 17,
+    "Timestamp": "2025-08-22T16:35:29.636682057Z",
+    "ExecutionMetrics": {
+      "gas/per_block": 96294058,
+      "gas/per_second": 42467659080.52506,
+      "latency/new_payload": 2267468,
+      "latency/update_fork_choice": 327198,
+      "reth_sync_block_validation_state_root_duration": 0,
+      "reth_sync_execution_execution_duration": 0
+    }
+  },
+  {
+    "BlockNumber": 18,
+    "Timestamp": "2025-08-22T16:35:29.636682057Z",
+    "ExecutionMetrics": {
+      "gas/per_block": 96294058,
+      "gas/per_second": 48934731370.87701,
+      "latency/new_payload": 1967806,
+      "latency/update_fork_choice": 335905,
+      "reth_sync_block_validation_state_root_duration": 0,
+      "reth_sync_execution_execution_duration": 0
+    }
+  },
+  {
+    "BlockNumber": 19,
+    "Timestamp": "2025-08-22T16:35:29.636682057Z",
+    "ExecutionMetrics": {
+      "gas/per_block": 96294058,
+      "gas/per_second": 43224008894.909805,
+      "latency/new_payload": 2227791,
+      "latency/update_fork_choice": 323391,
+      "reth_sync_block_validation_state_root_duration": 0,
+      "reth_sync_execution_execution_duration": 0
+    }
+  }
+]
